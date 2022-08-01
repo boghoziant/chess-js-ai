@@ -1,0 +1,15 @@
+Design Doc 
+1. Create a move generation and board visualiation algorithm
+ - Initially play against a random move generator
+ - pick randomly from list of possible moves
+
+2. Position Evaluation
+ - Get list of possible moves 
+ - Assign each one a value by counting all
+the pieces on the board
+ - Pick highest value move
+ - Currently this just means capturing the highest 
+value target
+
+3. Search Tree using MiniMax
+
