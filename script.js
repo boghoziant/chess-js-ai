@@ -76,7 +76,7 @@ function eval(b) {
 }
 
 function topLevelMiniMax() {
-    var res = miniMax(game, 1, false, -10000, 10000)
+    var res = miniMax(game, 2, false, -10000, 10000)
 
     game.move(res.m)
     board.position(game.fen())
