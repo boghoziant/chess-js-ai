@@ -20,3 +20,5 @@ move for the opposing player.
  - Need to change eval function to selectively minimize
 or maximize.
 
+4. Use alpha-beta pruning
+
