@@ -76,7 +76,9 @@ function eval(b) {
 }
 
 function topLevelMiniMax() {
-    var res = miniMax(game, 2, false, -10000, 10000)
+    var depth = 2
+    var res = miniMax(game, depth, false, -10000, 10000)
+    $('#depth').text(depth);
 
     game.move(res.m)
     board.position(game.fen())
