@@ -12,4 +12,11 @@ the pieces on the board
 value target
 
 3. Search Tree using MiniMax
+ - Minimax algorithm calculates the state of the board
+using the evaluation function and finds the next best
+move using that same function. Then it recusively
+calls the eval function again searching for the best
+move for the opposing player. 
+ - Need to change eval function to selectively minimize
+or maximize.
 
